@@ -1,0 +1,195 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# 模型和检查点
+*.ckpt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+ckpt/
+models/
+pretrained/
+
+# 数据集
+datasets/
+data/
+*.jsonl
+*.json
+*.csv
+*.tsv
+*.parquet
+
+# 图像和媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 缓存文件
+cache/
+.cache/
+*.cache
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 输出目录
+output/
+outputs/
+results/
+evaluation_results/
+aokvqa_evaluation_results/
+aokvqa_test_results/
+
+# 特定于项目的忽略
+official_format_data/
+ALL_images/
+coco2017/
+aokvqa/
+prophet/
+
+# 权重和适配器
+*_ckpt/
+*_weights/
+adapters/
+lora_adapters/
+
+# 配置文件（如果包含敏感信息）
+config.json
+secrets.json
+.secrets
+
+# 大文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 特定检查点目录
+3B-*-ckpt/
+7B-*-ckpt/
+fixed_vqa_ckpt/
+hierarchical_fusion_ckpt/
+knowledge_enhanced_gnn_ckpt_original_size/
+
+# 分析结果
+*.png
+*.jpg
+*.jpeg
+analysis_results/
+visualization_results/
+
+# 测试结果
+test_results/
+*_results.json
+*_test_result.json
+generate_test_result.json
+no_fallback_test_result.json
